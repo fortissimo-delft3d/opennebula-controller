@@ -51,4 +51,4 @@ graphics = SubElement(template, "GRAPHICS")
 SubElement(graphics, "LISTEN")       .text = "0.0.0.0"
 SubElement(graphics, "TYPE")         .text = "vnc"
 
-dump(template)
+print str(template)
